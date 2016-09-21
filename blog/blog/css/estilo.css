@@ -89,6 +89,7 @@ body {
 	height:408px;
 	background-color:#EEE9E9;
 	color:#000;
+	display: table;
 	margin:auto;
 }
 .conteudo h1{
@@ -101,18 +102,21 @@ body {
 	padding-top:10px;
 	font-size:14px;
 }
-
-
+.conteudoSEC { 
+	display: inline;
+ width: 30%;
+ float: right;
+}
 .texto{
 	width:650px;
 	height:auto; /* O height fica com o tamanho indeterminado, ira depender do conteudo que estiver dentro, se tratando de texto é bom utilizar height auto pois os textos podem variar de tamanho */
 	float:left;
 }
-.lateral{
-	width:330px;
-	height:auto;
-	float:left;
 
+.fotos{
+width:330px;
+height:auto;
+float:left;
 	
 }
 /* Termina aqui o conteúdo -------------------------------------------------------------------------------------------------------------------------------------------------------- */
